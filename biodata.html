@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bio-data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a class="logo" href="index.html">Samartha<span>.</span></a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Bio-data</a>
+            <a href="index.html#contact">Contact</a>
+            <button id="themeBtn" class="theme-btn">☾</button>
+        </div>
+    </nav>
+</header>
+
+<main class="page-container">
+    <h1>My <span>Bio-data</span></h1>
+    <p class="section-desc">Personal and educational details.</p>
+
+    <button class="btn print-btn" onclick="window.print()">
+        Print / Save as PDF
+    </button>
+
+    <section class="resume-box">
+        <h2>Personal Details</h2>
+
+        <table>
+            <tr><th>Full Name</th><td>Samartha N.</td></tr>
+            <tr><th>Date of Birth</th><td>25/02/2006</td></tr>
+            <tr><th>Gender</th><td>Male</td></tr>
+            <tr><th>Nationality</th><td>Indian</td></tr>
+            <tr><th>Marital Status</th><td>Unmarried</td></tr>
+            <tr><th>Languages</th><td>Kannada, English</td></tr>
+        </table>
+
+        <hr>
+
+        <h2>Contact Details</h2>
+        <table>
+            <tr><th>Email</th><td>samarthn178@gmail.com</td></tr>
+            <tr><th>Phone</th><td>+91 7259387917</td></tr>
+            <tr><th>Address</th><td>Hiriyur,Chitradurga, Karnataka, India</td></tr>
+        </table>
+
+        <hr>
+
+        <h2>Educational Background</h2>
+        <table>
+            <tr><th>Qualification</th><th>Institution</th></tr>
+            <tr><td>Bachelor of Engineering</td><td>RV Institute of Technology and management</td></tr>
+            <tr><td>12th Standard</td><td>Ascent PU College</td></tr>
+        </table>
+
+        <hr>
+
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Learning new technologies</li>
+            <li>Listening to music</li>
+            <li>Reading</li>
+            <li>Programming</li>
+        </ul>
+
+        <hr>
+
+        <h2>Declaration</h2>
+        <p>
+            I declare that the details provided above are correct
+            to the best of my knowledge.
+        </p>
+
+        <div class="declaration">
+            <p>Place: __________</p>
+            <p>Date: __________</p>
+            <p>Signature: Samartha N.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© <span class="year"></span> Samartha N.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

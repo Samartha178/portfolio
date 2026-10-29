@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a class="logo" href="index.html">Samartha<span>.</span></a>
+        <button class="menu-btn" id="menuBtn">☰</button>
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="biodata.html">Bio-data</a>
+            <a href="index.html#contact">Contact</a>
+            <button id="themeBtn" class="theme-btn">☾</button>
+        </div>
+    </nav>
+</header>
+
+<main class="page-container">
+    <h1>My <span>Resume</span></h1>
+    <p class="section-desc">My qualifications and professional skills.</p>
+
+    <button class="btn print-btn" onclick="window.print()">
+        Print / Save as PDF
+    </button>
+
+    <section class="resume-box">
+        <h2>Samartha N.</h2>
+        <p>Engineering Student</p>
+        <p>Email: samarthn178@gmail.com</p>
+        <p>Location: Karnataka, India</p>
+
+        <hr>
+
+        <h2>Career Objective</h2>
+        <p>
+            To apply my technical knowledge and programming skills
+            to solve real-world problems and develop useful software.
+        </p>
+
+        <hr>
+
+        <h2>Educational Qualifications</h2>
+        <div class="resume-item">
+            <h3>Bachelor of Engineering</h3>
+            <p>Computer Science and Engineering</p>
+            <p>University: VTU</p>
+            <p>College: Enter your college name</p>
+            <p>Year: Currently pursuing</p>
+        </div>
+
+        <div class="resume-item">
+            <h3>12th Standard</h3>
+            <p>College: Enter your college name</p>
+            <p>Year: Enter completion year</p>
+            <p>Percentage: Enter your marks</p>
+        </div>
+
+        <hr>
+
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML and CSS</li>
+            <li>Java programming</li>
+            <li>C programming</li>
+            <li>JavaScript and jQuery</li>
+        </ul>
+
+        <hr>
+
+        <h2>Projects</h2>
+        <div class="resume-item">
+            <h3>Resume and Bio-data Website</h3>
+            <p>
+                Developed a multi-page website using HTML, CSS,
+                JavaScript, and jQuery. It includes personal details,
+                a resume, bio-data, and a contact form.
+            </p>
+        </div>
+
+        <hr>
+
+        <h2>Strengths</h2>
+        <ul>
+            <li>Problem solving</li>
+            <li>Teamwork</li>
+            <li>Self-learning</li>
+            <li>Adaptability</li>
+        </ul>
+
+        <hr>
+
+        <h2>Declaration</h2>
+        <p>
+            I declare that the information provided above is true
+            to the best of my knowledge.
+        </p>
+        <p class="signature">Samartha N.</p>
+    </section>
+</main>
+
+<footer>
+    <p>© <span class="year"></span> Samartha N.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
